@@ -27,7 +27,7 @@ class _QuizScreenState extends State<QuizScreen>{
           ),
           SizedBox(height: 30,),
           ...currentQuestion.answers.map((answer){  
-            return answerButton(answer, onTap: (){}); // using mapping method and Spread Operator
+            return answerButton(answer, onTap: (){}); // using mapping method and Spread Operator map doesnot change the original list 
           }
           ) 
         
